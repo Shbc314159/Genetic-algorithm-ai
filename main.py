@@ -24,7 +24,7 @@ def main():
     genetic_algorithm = GeneticAlgorithm()   
     
     while genetic_algorithm.current_generation < 10:
-        print("Generation: ", genetic_algorithm.current_generation)
+        print("Generation:", genetic_algorithm.current_generation)
         
         if genetic_algorithm.current_generation == 1:
             genetic_algorithm.create_population()

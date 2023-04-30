@@ -8,6 +8,7 @@ class Individual(Cube):
         self.moves_executed = 0
         self.score = 0
         self.fitness = 0
+        self.moves_taken = 1
     
     def update(self):
         if self.current_move < len(self.genes):
@@ -17,6 +18,7 @@ class Individual(Cube):
         
         if self.collide_with_target() == True and self.score == 0:
             self.score += 100
+            self.moves_taken = self.moves_executed
             print("collision")
             
         
