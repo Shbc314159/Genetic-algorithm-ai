@@ -1,4 +1,5 @@
 from Cube import Cube
+import keyboard
 
 class Individual(Cube):
     def __init__(self, genes):
@@ -16,25 +17,35 @@ class Individual(Cube):
             self.current_move += 0.05
             self.moves_executed += 1
         
-        if self.collide_with_target() == True and self.score == 0:
-            self.score += 100
-            self.moves_taken = self.moves_executed
+        if self.collide_with_target() == True:
+            if self.score == 0:
+                self.score += 100
+                self.moves_taken = self.moves_executed
+            else:
+                self.score += 20
+                
             print("collision")
             
         
     def collide_with_target(self):
-        self.x_limits = (self.cube_pos[0] + 1, self.cube_pos[0] - 1)
-        self.z_limits = (self.cube_pos[2] + 1, self.cube_pos[2] - 1)
-        self.target_x_limits = (-25, -20)
-        self.target_z_limits = (-60, -55)
-
-        if self.x_limits[1] >= self.target_x_limits[1] or  \
-            self.x_limits[0] <= self.target_x_limits[1] or \
-            self.z_limits[1] >= self.target_z_limits[1] or \
-            self.z_limits[0] <= self.target_z_limits[0]:
-                return False
-        else:     
+        corner1 = (self.cube_pos[0] + 1, self.cube_pos[2] - 1)
+        corner2 = (self.cube_pos[0] + 1, self.cube_pos[2] + 1)
+        corner3 = (self.cube_pos[0] - 1, self.cube_pos[2] + 1)
+        corner4 = (self.cube_pos[0] - 1, self.cube_pos[2] - 1)
+        
+        targetxrange = (-20, -25)
+        targetzrange = (-55, -60)
+        
+        if (targetxrange[0] > corner1[0] > targetxrange[1]) and (targetzrange[0] > corner1[1] > targetzrange[1]):
             return True
+        elif (targetxrange[0] > corner2[0] > targetxrange[1]) and (targetzrange[0] > corner2[1] > targetzrange[1]):
+            return True
+        elif (targetxrange[0] > corner3[0] > targetxrange[1]) and (targetzrange[0] > corner3[1] > targetzrange[1]):
+            return True
+        elif (targetxrange[0] > corner4[0] > targetxrange[1]) and (targetzrange[0] > corner4[1] > targetzrange[1]):
+            return True
+        else:
+            return False
         
     
 

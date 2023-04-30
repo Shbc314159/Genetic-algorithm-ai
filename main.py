@@ -23,7 +23,7 @@ def main():
     walls = Walls()
     genetic_algorithm = GeneticAlgorithm()   
     
-    while genetic_algorithm.current_generation < 10:
+    while genetic_algorithm.current_generation < 50:
         print("Generation:", genetic_algorithm.current_generation)
         
         if genetic_algorithm.current_generation == 1:
@@ -31,7 +31,6 @@ def main():
         else:
             genetic_algorithm.create_next_generation()  
         
-        #game loop
         for i in range(genetic_algorithm.gene_length*5):
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:

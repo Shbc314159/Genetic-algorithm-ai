@@ -17,14 +17,16 @@ class GeneticAlgorithm:
     
     def calculate_fitness(self, individual):
         fitness = individual.score / individual.moves_taken
+        print(fitness)
         return fitness
             
     def selection(self):
         selected_individuals = []
         sorted_population = sorted(self.population, key=self.calculate_fitness, reverse=True)
-        selected_individuals = sorted_population[-4:]
-        for i in range(selected_individuals):
-            print(self.calculate_fitness(i))
+        selected_individuals = [sorted_population[0], sorted_population[1]]
+        print("selected fitnesses")
+        for i in selected_individuals:
+            self.calculate_fitness(i)
             
         return selected_individuals
         

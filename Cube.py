@@ -2,7 +2,6 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 
 import math
-import random
 
 class Cube():
     def __init__(self):
@@ -12,7 +11,7 @@ class Cube():
         self.friction_coefficient = 0.9
         self.force_applied = 0.01
         self.mass = 100
-        self.direction = random.randint(0, 360)
+        self.direction = 0
         self.vertices = (
             (1, -1, -1),
             (1, 1, -1),
