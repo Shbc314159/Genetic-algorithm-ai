@@ -11,7 +11,7 @@ class GeneticAlgorithm:
         self.pop_size = 20
         self.mutation_rate = 0.2
         self.current_best_score = 0
-        self.maxbarriers = 25
+        self.maxbarriers = 20
     
     def create_population(self):
         for i in range(self.pop_size):
@@ -93,12 +93,12 @@ class GeneticAlgorithm:
         numbarriers = random.randint(0, self.maxbarriers)
         
         for i in range(numbarriers):
-            length = random.randint(1, 15)
+            length = random.randint(1, 10)
             height = random.randint(1, 15)
-            width = random.randint(1, 15)
-            xmin = random.randint(-25, 10)
+            width = random.randint(1, 10)
+            xmin = random.randint(-25, 15)
             ymin = -10
-            zmin = random.randint(-60, -15)
+            zmin = random.randint(-60, -20)
             xmax = xmin + length
             ymax = ymin + height
             zmax = zmin + width

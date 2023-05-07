@@ -32,3 +32,17 @@ class Barrier():
                 glVertex3fv(self.vertices[vertex])
                 
         glEnd()
+        
+        glBegin(GL_LINES)
+        
+        glColor3fv((0, 0, 0))
+        
+        for i in range(0, 4):
+            glVertex3fv(self.vertices[i])
+            glVertex3fv(self.vertices[(i+1)%4])
+            glVertex3fv(self.vertices[i+4])
+            glVertex3fv(self.vertices[((i+1)%4)+4])
+            glVertex3fv(self.vertices[i])
+            glVertex3fv(self.vertices[i+4])
+            
+        glEnd()
