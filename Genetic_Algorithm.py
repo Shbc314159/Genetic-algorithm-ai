@@ -1,5 +1,6 @@
 from Individual_AI import Individual
 import random
+import globalvars
 
 class GeneticAlgorithm:
     def __init__(self):
@@ -53,16 +54,18 @@ class GeneticAlgorithm:
         child.genes.append(random.choice(["w", "a", "d", " ", "u"]))
         self.population.append(child)
         
-        if self.mutation_rate - self.calculate_fitness(best_individual) > 0.05:
+        if self.mutation_rate - self.calculate_fitness(best_individual) > 0.1:
             self.mutation_rate -= self.calculate_fitness(best_individual)
         else:
-            self.mutation_rate = 0.05
+            self.mutation_rate = 0.1
                 
  #       if self.current_generation % 0 == 0:
  #           self.gene_length += 1
             
         print(self.mutation_rate)
-    
+        
+        self.randomise_target()
+        print(globalvars.target_vertices)
     
     def crossover(self, parent1, parent2):
         crossover_point = random.randint(0, self.gene_length - 1)
@@ -71,4 +74,15 @@ class GeneticAlgorithm:
         child1 = Individual(child1_genes)
         child2 = Individual(child2_genes)
         return child1, child2 
+    
+    def randomise_target(self):
+        x = random.randint(-25, 20)
+        z = random.randint(-60, -15)
+        
+        globalvars.target_vertices = (
+            (x + 5, -9.5, z + 5),
+            (x, -9.5, z + 5),
+            (x, -9.5, z),
+            (x + 5, -9.5, z),
+        )
         

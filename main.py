@@ -7,6 +7,7 @@ from OpenGL.GLU import *
 from Walls import Walls
 from Genetic_Algorithm import GeneticAlgorithm
 from graph import Graph
+import globalvars
     
 def main(): 
     pygame.init()
@@ -43,7 +44,8 @@ def main():
             walls.Draw_Back_Wall()
             walls.Draw_Floor()
             walls.Draw_Target()
-            walls.Draw_Barrier()
+            for barrier in globalvars.barriers:
+                barrier.draw()
             
             for individual in genetic_algorithm.population:
                 individual.update()

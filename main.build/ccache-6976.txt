@@ -1,0 +1,399 @@
+[2023-05-07T19:21:03.971392 12856] === CCACHE 4.6 STARTED =========================================
+[2023-05-07T19:21:03.971392 12856] Config: (default) absolute_paths_in_stderr = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) base_dir = 
+[2023-05-07T19:21:03.971392 12856] Config: (environment) cache_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-05-07T19:21:03.971392 12856] Config: (default) compiler = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) compiler_check = mtime
+[2023-05-07T19:21:03.971392 12856] Config: (default) compiler_type = auto
+[2023-05-07T19:21:03.971392 12856] Config: (default) compression = true
+[2023-05-07T19:21:03.971392 12856] Config: (default) compression_level = 0
+[2023-05-07T19:21:03.971392 12856] Config: (default) cpp_extension = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) debug = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) debug_dir = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) depend_mode = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) direct_mode = true
+[2023-05-07T19:21:03.971392 12856] Config: (default) disable = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) extra_files_to_hash = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) file_clone = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) hard_link = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) hash_dir = true
+[2023-05-07T19:21:03.971392 12856] Config: (default) ignore_headers_in_manifest = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) ignore_options = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) inode_cache = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) keep_comments_cpp = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) limit_multiple = 0.8
+[2023-05-07T19:21:03.971392 12856] Config: (environment) log_file = C:\Users\samue\OneDrive\Desktop\PHYSIC~1\main.build\ccache-6976.txt
+[2023-05-07T19:21:03.971392 12856] Config: (default) max_files = 0
+[2023-05-07T19:21:03.971392 12856] Config: (default) max_size = 5.0G
+[2023-05-07T19:21:03.971392 12856] Config: (default) namespace = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) path = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) pch_external_checksum = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) prefix_command = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) prefix_command_cpp = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) read_only = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) read_only_direct = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) recache = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) reshare = false
+[2023-05-07T19:21:03.971392 12856] Config: (default) run_second_cpp = true
+[2023-05-07T19:21:03.971392 12856] Config: (default) secondary_storage = 
+[2023-05-07T19:21:03.971392 12856] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-05-07T19:21:03.971392 12856] Config: (default) stats = true
+[2023-05-07T19:21:03.971392 12856] Config: (default) stats_log = 
+[2023-05-07T19:21:03.971392 12856] Config: (default) temporary_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-05-07T19:21:03.971392 12856] Config: (default) umask = 
+[2023-05-07T19:21:03.971392 12856] Command line: C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\samue\AppData\Local\Programs\Python\Python311\include -I. -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2023-05-07T19:21:03.971392 12452] === CCACHE 4.6 STARTED =========================================
+[2023-05-07T19:21:03.971392 12452] Config: (default) absolute_paths_in_stderr = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) base_dir = 
+[2023-05-07T19:21:03.971392 12452] Config: (environment) cache_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-05-07T19:21:03.971392 12452] Config: (default) compiler = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) compiler_check = mtime
+[2023-05-07T19:21:03.971392 12452] Config: (default) compiler_type = auto
+[2023-05-07T19:21:03.971392 12452] Config: (default) compression = true
+[2023-05-07T19:21:03.971392 12452] Config: (default) compression_level = 0
+[2023-05-07T19:21:03.971392 12452] Config: (default) cpp_extension = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) debug = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) debug_dir = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) depend_mode = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) direct_mode = true
+[2023-05-07T19:21:03.971392 12452] Config: (default) disable = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) extra_files_to_hash = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) file_clone = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) hard_link = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) hash_dir = true
+[2023-05-07T19:21:03.971392 12452] Config: (default) ignore_headers_in_manifest = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) ignore_options = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) inode_cache = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) keep_comments_cpp = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) limit_multiple = 0.8
+[2023-05-07T19:21:03.971392 12452] Config: (environment) log_file = C:\Users\samue\OneDrive\Desktop\PHYSIC~1\main.build\ccache-6976.txt
+[2023-05-07T19:21:03.971392 12452] Config: (default) max_files = 0
+[2023-05-07T19:21:03.971392 12452] Config: (default) max_size = 5.0G
+[2023-05-07T19:21:03.971392 12452] Config: (default) namespace = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) path = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) pch_external_checksum = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) prefix_command = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) prefix_command_cpp = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) read_only = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) read_only_direct = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) recache = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) reshare = false
+[2023-05-07T19:21:03.971392 12452] Config: (default) run_second_cpp = true
+[2023-05-07T19:21:03.971392 12452] Config: (default) secondary_storage = 
+[2023-05-07T19:21:03.971392 12452] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-05-07T19:21:03.971392 12452] Config: (default) stats = true
+[2023-05-07T19:21:03.971392 12452] Config: (default) stats_log = 
+[2023-05-07T19:21:03.971392 12452] Config: (default) temporary_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-05-07T19:21:03.971392 12452] Config: (default) umask = 
+[2023-05-07T19:21:03.971392 12452] Command line: C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\samue\AppData\Local\Programs\Python\Python311\include -I. -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2023-05-07T19:21:03.987014 12856] Hostname: Samuel_Laptop
+[2023-05-07T19:21:03.987014 9280 ] Working directory: C:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:03.987014 9280 ] Compiler type: gcc
+:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:03.987014 12856] Compiler type: gcc
+[2023-05-07T19:21:03.987014 9280 ] Source file: __helpers.c
+
+[2023-05-07T19:21:03.987014 12856] Object file: __constants.o
+[2023-05-07T19:21:03.987014 9280 ] Object file: __helpers.o
+[2023-05-07T19:21:03.987014 12856] Trying direct lookup
+[2023-05-07T19:21:03.987014 9280 ] Trying direct lookup
+[2023-05-07T19:21:03.987014 12856] No 097cema4qern7r5g34gcb48r9ns33uqm8 in primary storage
+[2023-05-07T19:21:03.987014 9280 ] No 1496fq2mrt4dgq2l8afj2jnn7eeubkhrk in primary storage
+[2023-05-07T19:21:03.987014 12452] Hostname: Samuel_Laptop
+[2023-05-07T19:21:03.987014 12452] Working directory: C:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:03.987014 12452] Compiler type: gcc
+[2023-05-07T19:21:03.987014 12856] Running preprocessor
+[2023-05-07T19:21:03.987014 9280 ] Running preprocessor
+[2023-05-07T19:21:03.987014 12452] Source file: __loader.c
+[2023-05-07T19:21:03.987014 12452] Object file: __loader.o
+[2023-05-07T19:21:03.987014 12452] Trying direct lookup
+[2023-05-07T19:21:03.987014 12452] No 12c0iikuqv3lfvuqhnfctuu9gokglajsq in primary storage
+[2023-05-07T19:21:03.987014 12452] Running preprocessor
+[2023-05-07T19:21:04.002635 10992] === CCACHE 4.6 STARTED =========================================
+[2023-05-07T19:21:04.002635 10992] Config: (default) absolute_paths_in_stderr = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) base_dir = 
+[2023-05-07T19:21:04.002635 10992] Config: (environment) cache_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-05-07T19:21:04.002635 10992] Config: (default) compiler = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) compiler_check = mtime
+[2023-05-07T19:21:04.002635 10992] Config: (default) compiler_type = auto
+[2023-05-07T19:21:04.002635 10992] Config: (default) compression = true
+[2023-05-07T19:21:04.002635 10992] Config: (default) compression_level = 0
+[2023-05-07T19:21:04.002635 10992] Config: (default) cpp_extension = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) debug = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) debug_dir = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) depend_mode = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) direct_mode = true
+[2023-05-07T19:21:04.002635 10992] Config: (default) disable = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) extra_files_to_hash = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) file_clone = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) hard_link = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) hash_dir = true
+[2023-05-07T19:21:04.002635 10992] Config: (default) ignore_headers_in_manifest = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) ignore_options = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) inode_cache = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) keep_comments_cpp = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) limit_multiple = 0.8
+[2023-05-07T19:21:04.002635 10992] Config: (environment) log_file = C:\Users\samue\OneDrive\Desktop\PHYSIC~1\main.build\ccache-6976.txt
+[2023-05-07T19:21:04.002635 10992] Config: (default) max_files = 0
+[2023-05-07T19:21:04.002635 10992] Config: (default) max_size = 5.0G
+[2023-05-07T19:21:04.002635 10992] Config: (default) namespace = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) path = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) pch_external_checksum = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) prefix_command = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) prefix_command_cpp = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) read_only = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) read_only_direct = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) recache = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) reshare = false
+[2023-05-07T19:21:04.002635 10992] Config: (default) run_second_cpp = true
+[2023-05-07T19:21:04.002635 10992] Config: (default) secondary_storage = 
+[2023-05-07T19:21:04.002635 10992] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-05-07T19:21:04.002635 10992] Config: (default) stats = true
+[2023-05-07T19:21:04.002635 10992] Config: (default) stats_log = 
+[2023-05-07T19:21:04.002635 10992] Config: (default) temporary_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-05-07T19:21:04.002635 10992] Config: (default) umask = 
+[2023-05-07T19:21:04.002635 10992] Command line: C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\samue\AppData\Local\Programs\Python\Python311\include -I. -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2023-05-07T19:21:04.002635 10992] Hostname: Samuel_Laptop
+[2023-05-07T19:21:04.002635 10992] Working directory: C:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:04.002635 10992] Compiler type: gcc
+[2023-05-07T19:21:04.002635 10992] Source file: module.__main__.c
+[2023-05-07T19:21:04.002635 10992] Object file: module.__main__.o
+[2023-05-07T19:21:04.002635 10992] Trying direct lookup
+[2023-05-07T19:21:04.002635 10992] No 31f913jvmfoage2a95g91n4172km21gj0 in primary storage
+[2023-05-07T19:21:04.002635 10992] Running preprocessor
+[2023-05-07T19:21:04.018257 3700 ] === CCACHE 4.6 STARTED =========================================
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) absolute_paths_in_stderr = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) base_dir = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (environment) cache_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) compiler = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) compiler_check = mtime
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) compiler_type = auto
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) compression = true
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) compression_level = 0
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) cpp_extension = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) debug = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) debug_dir = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) depend_mode = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) direct_mode = true
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) disable = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) extra_files_to_hash = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) file_clone = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) hard_link = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) hash_dir = true
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) ignore_headers_in_manifest = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) ignore_options = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) inode_cache = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) keep_comments_cpp = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) limit_multiple = 0.8
+[2023-05-07T19:21:04.018257 3700 ] Config: (environment) log_file = C:\Users\samue\OneDrive\Desktop\PHYSIC~1\main.build\ccache-6976.txt
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) max_files = 0
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) max_size = 5.0G
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) namespace = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) path = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) pch_external_checksum = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) prefix_command = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) prefix_command_cpp = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) read_only = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) read_only_direct = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) recache = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) reshare = false
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) run_second_cpp = true
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) secondary_storage = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) stats = true
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) stats_log = 
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) temporary_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-05-07T19:21:04.018257 3700 ] Config: (default) umask = 
+[2023-05-07T19:21:04.018257 3700 ] Command line: C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\samue\AppData\Local\Programs\Python\Python311\include -I. -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2023-05-07T19:21:04.018257 3700 ] Hostname: Samuel_Laptop
+[2023-05-07T19:21:04.018257 3700 ] Working directory: C:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:04.018257 3700 ] Compiler type: gcc
+[2023-05-07T19:21:04.018257 3700 ] Source file: static_src\MainProgram.c
+[2023-05-07T19:21:04.018257 3700 ] Object file: static_src\MainProgram.o
+[2023-05-07T19:21:04.018257 3700 ] Trying direct lookup
+[2023-05-07T19:21:04.018257 3700 ] No 4efcijjvo8ghj1hp966qo1imi11kclb3a in primary storage
+[2023-05-07T19:21:04.018257 3700 ] Running preprocessor
+[2023-05-07T19:21:04.580625 11020] === CCACHE 4.6 STARTED =========================================
+[2023-05-07T19:21:04.580625 11020] Config: (default) absolute_paths_in_stderr = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) base_dir = 
+[2023-05-07T19:21:04.580625 11020] Config: (environment) cache_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-05-07T19:21:04.580625 11020] Config: (default) compiler = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) compiler_check = mtime
+[2023-05-07T19:21:04.580625 11020] Config: (default) compiler_type = auto
+[2023-05-07T19:21:04.580625 11020] Config: (default) compression = true
+[2023-05-07T19:21:04.580625 11020] Config: (default) compression_level = 0
+[2023-05-07T19:21:04.580625 11020] Config: (default) cpp_extension = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) debug = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) debug_dir = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) depend_mode = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) direct_mode = true
+[2023-05-07T19:21:04.580625 11020] Config: (default) disable = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) extra_files_to_hash = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) file_clone = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) hard_link = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) hash_dir = true
+[2023-05-07T19:21:04.580625 11020] Config: (default) ignore_headers_in_manifest = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) ignore_options = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) inode_cache = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) keep_comments_cpp = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) limit_multiple = 0.8
+[2023-05-07T19:21:04.580625 11020] Config: (environment) log_file = C:\Users\samue\OneDrive\Desktop\PHYSIC~1\main.build\ccache-6976.txt
+[2023-05-07T19:21:04.580625 11020] Config: (default) max_files = 0
+[2023-05-07T19:21:04.580625 11020] Config: (default) max_size = 5.0G
+[2023-05-07T19:21:04.580625 11020] Config: (default) namespace = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) path = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) pch_external_checksum = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) prefix_command = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) prefix_command_cpp = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) read_only = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) read_only_direct = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) recache = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) reshare = false
+[2023-05-07T19:21:04.580625 11020] Config: (default) run_second_cpp = true
+[2023-05-07T19:21:04.580625 11020] Config: (default) secondary_storage = 
+[2023-05-07T19:21:04.580625 11020] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-05-07T19:21:04.580625 11020] Config: (default) stats = true
+[2023-05-07T19:21:04.580625 11020] Config: (default) stats_log = 
+[2023-05-07T19:21:04.580625 11020] Config: (default) temporary_dir = C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-05-07T19:21:04.580625 11020] Config: (default) umask = 
+[2023-05-07T19:21:04.580625 11020] Command line: C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\samue\AppData\Local\Programs\Python\Python311\include -I. -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\samue\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2023-05-07T19:21:04.596246 11020] Hostname: Samuel_Laptop
+[2023-05-07T19:21:04.596246 11020] Working directory: C:/Users/samue/OneDrive/Desktop/PHYSIC~1/main.build
+[2023-05-07T19:21:04.596246 11020] Compiler type: gcc
+[2023-05-07T19:21:04.596246 11020] Source file: static_src\CompiledFunctionType.c
+[2023-05-07T19:21:04.596246 11020] Object file: static_src\CompiledFunctionType.o
+[2023-05-07T19:21:04.596246 11020] Trying direct lookup
+[2023-05-07T19:21:04.596246 11020] No a335l1b9uslgelkormnlpger2g5p76brc in primary storage
+[2023-05-07T19:21:04.596246 11020] Running preprocessor
+[2023-05-07T19:21:04.955536 12452] Got result key from preprocessor
+[2023-05-07T19:21:04.971158 12452] No 02a3vsa4tan7kif2f0vet94fis4jbsvsq in primary storage
+[2023-05-07T19:21:04.971158 12452] Running real compiler
+[2023-05-07T19:21:05.049265 12452] Using default compression level 1
+[2023-05-07T19:21:05.049265 12452] Storing embedded entry #0 .o (9687 bytes) from __loader.o
+[2023-05-07T19:21:05.049265 12452] Stored 02a3vsa4tan7kif2f0vet94fis4jbsvsq in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/2/a3vsa4tan7kif2f0vet94fis4jbsvsqR)
+[2023-05-07T19:21:05.049265 12452] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/c0iikuqv3lfvuqhnfctuu9gokglajsqM
+[2023-05-07T19:21:05.064886 12452] Using default compression level 1
+[2023-05-07T19:21:05.064886 12452] Stored 12c0iikuqv3lfvuqhnfctuu9gokglajsq in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/c0iikuqv3lfvuqhnfctuu9gokglajsqM)
+[2023-05-07T19:21:05.064886 12452] Result: cache_miss
+[2023-05-07T19:21:05.064886 12452] Result: direct_cache_miss
+[2023-05-07T19:21:05.064886 12452] Result: preprocessed_cache_miss
+[2023-05-07T19:21:05.064886 12452] Result: primary_storage_miss
+[2023-05-07T19:21:05.064886 12452] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2023-05-07T19:21:05.064886 12452] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2023-05-07T19:21:05.064886 12452] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2023-05-07T19:21:05.064886 12452] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2023-05-07T19:21:05.064886 12452] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.uSaQPg
+[2023-05-07T19:21:05.064886 12452] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.mDBadX
+[2023-05-07T19:21:05.064886 12452] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.MGnD3q
+[2023-05-07T19:21:05.064886 12452] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.bVdMRT.i
+[2023-05-07T19:21:05.064886 12452] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.bVdMRT
+[2023-05-07T19:21:06.689505 9280 ] Got result key from preprocessor
+[2023-05-07T19:21:06.689505 9280 ] No fe8b2a15hngcv68m2o47q2r4lu0to9jh2 in primary storage
+[2023-05-07T19:21:06.689505 9280 ] Running real compiler
+[2023-05-07T19:21:06.705126 12856] Got result key from preprocessor
+[2023-05-07T19:21:06.705126 12856] No 61d1fi5ut9b60gudo32r9bs5jjqrhqd1a in primary storage
+[2023-05-07T19:21:06.705126 12856] Running real compiler
+[2023-05-07T19:21:06.705126 3700 ] Got result key from preprocessor
+[2023-05-07T19:21:06.705126 3700 ] No fb17vhinehh5gg0k58ub3u2bspjp7868q in primary storage
+[2023-05-07T19:21:06.705126 3700 ] Running real compiler
+[2023-05-07T19:21:06.705126 10992] Got result key from preprocessor
+[2023-05-07T19:21:06.705126 10992] No 2ec5coic49vt9sgeg2rdfj15o6nhf5ftc in primary storage
+[2023-05-07T19:21:06.705126 10992] Running real compiler
+[2023-05-07T19:21:07.861500 9280 ] Using default compression level 1
+[2023-05-07T19:21:07.861500 9280 ] Storing embedded entry #0 .o (2615 bytes) from __helpers.o
+[2023-05-07T19:21:07.877121 9280 ] Stored fe8b2a15hngcv68m2o47q2r4lu0to9jh2 in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/8b2a15hngcv68m2o47q2r4lu0to9jh2R)
+[2023-05-07T19:21:07.877121 9280 ] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/96fq2mrt4dgq2l8afj2jnn7eeubkhrkM
+[2023-05-07T19:21:07.892743 9280 ] Using default compression level 1
+[2023-05-07T19:21:07.892743 9280 ] Stored 1496fq2mrt4dgq2l8afj2jnn7eeubkhrk in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/96fq2mrt4dgq2l8afj2jnn7eeubkhrkM)
+[2023-05-07T19:21:07.892743 9280 ] Result: cache_miss
+[2023-05-07T19:21:07.892743 9280 ] Result: direct_cache_miss
+[2023-05-07T19:21:07.892743 9280 ] Result: preprocessed_cache_miss
+[2023-05-07T19:21:07.892743 9280 ] Result: primary_storage_miss
+[2023-05-07T19:21:07.892743 9280 ] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2023-05-07T19:21:07.892743 9280 ] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2023-05-07T19:21:07.892743 9280 ] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2023-05-07T19:21:07.892743 11020] Got result key from preprocessor
+[2023-05-07T19:21:07.892743 11020] No 7320esdahb8tmtgh0k5puelr6dj0o7gjs in primary storage
+[2023-05-07T19:21:07.892743 11020] Running real compiler
+[2023-05-07T19:21:07.892743 9280 ] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2023-05-07T19:21:07.892743 9280 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.No6yGw
+[2023-05-07T19:21:07.892743 9280 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.K8LMJd
+[2023-05-07T19:21:07.892743 9280 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.qJqfOL
+[2023-05-07T19:21:07.892743 9280 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.NbMyHc.i
+[2023-05-07T19:21:07.892743 9280 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.NbMyHc
+[2023-05-07T19:21:07.970849 12856] Using default compression level 1
+[2023-05-07T19:21:07.970849 12856] Storing embedded entry #0 .o (14531 bytes) from __constants.o
+[2023-05-07T19:21:07.970849 12856] Stored 61d1fi5ut9b60gudo32r9bs5jjqrhqd1a in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/1/d1fi5ut9b60gudo32r9bs5jjqrhqd1aR)
+[2023-05-07T19:21:07.970849 12856] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/9/7cema4qern7r5g34gcb48r9ns33uqm8M
+[2023-05-07T19:21:08.002092 12856] Using default compression level 1
+[2023-05-07T19:21:08.002092 12856] Stored 097cema4qern7r5g34gcb48r9ns33uqm8 in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/9/7cema4qern7r5g34gcb48r9ns33uqm8M)
+[2023-05-07T19:21:08.002092 12856] Result: cache_miss
+[2023-05-07T19:21:08.002092 12856] Result: direct_cache_miss
+[2023-05-07T19:21:08.002092 12856] Result: preprocessed_cache_miss
+[2023-05-07T19:21:08.002092 12856] Result: primary_storage_miss
+[2023-05-07T19:21:08.002092 12856] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2023-05-07T19:21:08.002092 12856] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2023-05-07T19:21:08.002092 12856] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2023-05-07T19:21:08.002092 12856] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2023-05-07T19:21:08.002092 12856] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.8vp189
+[2023-05-07T19:21:08.002092 12856] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.jdISA6
+[2023-05-07T19:21:08.002092 12856] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.3biFAp
+[2023-05-07T19:21:08.002092 12856] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.Ilbo5Q.i
+[2023-05-07T19:21:08.002092 12856] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.Ilbo5Q
+[2023-05-07T19:21:08.017713 3700 ] Using default compression level 1
+[2023-05-07T19:21:08.017713 3700 ] Storing embedded entry #0 .o (65365 bytes) from static_src\MainProgram.o
+[2023-05-07T19:21:08.017713 3700 ] Stored fb17vhinehh5gg0k58ub3u2bspjp7868q in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/17vhinehh5gg0k58ub3u2bspjp7868qR)
+[2023-05-07T19:21:08.017713 3700 ] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/e/fcijjvo8ghj1hp966qo1imi11kclb3aM
+[2023-05-07T19:21:08.033336 3700 ] Using default compression level 1
+[2023-05-07T19:21:08.033336 3700 ] Stored 4efcijjvo8ghj1hp966qo1imi11kclb3a in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/e/fcijjvo8ghj1hp966qo1imi11kclb3aM)
+[2023-05-07T19:21:08.033336 3700 ] Result: cache_miss
+[2023-05-07T19:21:08.033336 3700 ] Result: direct_cache_miss
+[2023-05-07T19:21:08.033336 3700 ] Result: preprocessed_cache_miss
+[2023-05-07T19:21:08.033336 3700 ] Result: primary_storage_miss
+[2023-05-07T19:21:08.033336 3700 ] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2023-05-07T19:21:08.033336 3700 ] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2023-05-07T19:21:08.033336 3700 ] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2023-05-07T19:21:08.033336 3700 ] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2023-05-07T19:21:08.033336 3700 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.Yzvmxs
+[2023-05-07T19:21:08.033336 3700 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.lcIg2T
+[2023-05-07T19:21:08.033336 3700 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.dDZUpP
+[2023-05-07T19:21:08.033336 3700 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.SNdpo2.i
+[2023-05-07T19:21:08.033336 3700 ] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.SNdpo2
+[2023-05-07T19:21:08.127065 10992] Using default compression level 1
+[2023-05-07T19:21:08.127065 10992] Storing embedded entry #0 .o (147525 bytes) from module.__main__.o
+[2023-05-07T19:21:08.127065 10992] Stored 2ec5coic49vt9sgeg2rdfj15o6nhf5ftc in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/c5coic49vt9sgeg2rdfj15o6nhf5ftcR)
+[2023-05-07T19:21:08.127065 10992] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/1/f913jvmfoage2a95g91n4172km21gj0M
+[2023-05-07T19:21:08.142685 10992] Using default compression level 1
+[2023-05-07T19:21:08.142685 10992] Stored 31f913jvmfoage2a95g91n4172km21gj0 in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/1/f913jvmfoage2a95g91n4172km21gj0M)
+[2023-05-07T19:21:08.142685 10992] Result: cache_miss
+[2023-05-07T19:21:08.142685 10992] Result: direct_cache_miss
+[2023-05-07T19:21:08.142685 10992] Result: preprocessed_cache_miss
+[2023-05-07T19:21:08.142685 10992] Result: primary_storage_miss
+[2023-05-07T19:21:08.142685 10992] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2023-05-07T19:21:08.142685 10992] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2023-05-07T19:21:08.142685 10992] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2023-05-07T19:21:08.158305 10992] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2023-05-07T19:21:08.158305 10992] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.890NZ5
+[2023-05-07T19:21:08.158305 10992] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.ynRQPE
+[2023-05-07T19:21:08.158305 10992] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.ca9ZWH
+[2023-05-07T19:21:08.158305 10992] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.ZQqbjO.i
+[2023-05-07T19:21:08.158305 10992] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.ZQqbjO
+[2023-05-07T19:21:11.736525 11020] Using default compression level 1
+[2023-05-07T19:21:11.736525 11020] Storing embedded entry #0 .o (3561620 bytes) from static_src\CompiledFunctionType.o
+[2023-05-07T19:21:11.752146 11020] Stored 7320esdahb8tmtgh0k5puelr6dj0o7gjs in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/3/20esdahb8tmtgh0k5puelr6dj0o7gjsR)
+[2023-05-07T19:21:11.752146 11020] Adding result key to C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/3/35l1b9uslgelkormnlpger2g5p76brcM
+[2023-05-07T19:21:11.767767 11020] Using default compression level 1
+[2023-05-07T19:21:11.767767 11020] Stored a335l1b9uslgelkormnlpger2g5p76brc in primary storage (C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/3/35l1b9uslgelkormnlpger2g5p76brcM)
+[2023-05-07T19:21:11.767767 11020] Result: cache_miss
+[2023-05-07T19:21:11.767767 11020] Result: direct_cache_miss
+[2023-05-07T19:21:11.767767 11020] Result: preprocessed_cache_miss
+[2023-05-07T19:21:11.767767 11020] Result: primary_storage_miss
+[2023-05-07T19:21:11.767767 11020] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2023-05-07T19:21:11.767767 11020] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2023-05-07T19:21:11.767767 11020] Acquired lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2023-05-07T19:21:11.767767 11020] Releasing lock C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2023-05-07T19:21:11.767767 11020] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.4DtVIG
+[2023-05-07T19:21:11.767767 11020] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.ssQenM
+[2023-05-07T19:21:11.767767 11020] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.OFbqdj
+[2023-05-07T19:21:11.767767 11020] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.3XOZIc.i
+[2023-05-07T19:21:11.783389 11020] Unlink C:\Users\samue\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.3XOZIc

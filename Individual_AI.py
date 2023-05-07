@@ -1,5 +1,6 @@
 from Cube import Cube
 import keyboard
+import globalvars
 
 class Individual(Cube):
     def __init__(self, genes):
@@ -10,7 +11,10 @@ class Individual(Cube):
         self.score = 0
         self.fitness = 0
         self.moves_taken = 1
-        self.target_centre = (-22.5, -9.5, -57.5)
+        x_center = sum(vertex[0] for vertex in globalvars.target_vertices) / len(globalvars.target_vertices)
+        y_center = sum(vertex[1] for vertex in globalvars.target_vertices) / len(globalvars.target_vertices)
+        z_center = sum(vertex[2] for vertex in globalvars.target_vertices) / len(globalvars.target_vertices)
+        self.target_centre = [x_center, y_center, z_center]
     
     def update(self):
         if self.current_move < len(self.genes):
@@ -18,14 +22,14 @@ class Individual(Cube):
             
             if keyboard.is_pressed("w"):
  #               self.move("w")
- #           elif keyboard.is_pressed("a"):
- #               self.move("a")
- #           elif keyboard.is_pressed("d"):
- #               self.move("d")
- #           elif keyboard.is_pressed("u"):
- #               self.move("u")
+  #          elif keyboard.is_pressed("a"):
+   #             self.move("a")
+    #        elif keyboard.is_pressed("d"):
+     #           self.move("d")
+      #      elif keyboard.is_pressed("u"):
+       #         self.move("u")
                 pass
-
+            
             self.current_move += 0.2
             self.moves_executed += 1
             

@@ -1,5 +1,7 @@
 from OpenGL.GL import *
 from OpenGL.GLU import *
+import globalvars
+import barrier
 
 class Walls: 
     def __init__(self):
@@ -26,36 +28,15 @@ class Walls:
             (0, 1, 2, 3)
         )
         
-        self.target_vertices = (
-            (-20, -9.5, -55),
-            (-25, -9.5, -55),
-            (-25, -9.5, -60),
-            (-20, -9.5, -60),
-        )
-        
         self.target_surface = (
             (0, 1, 2, 3)
         )
         
-        self.barrier_vertices = (
-            (-25, -10, -35),
-            (25, -10, -35),
-            (25, -5, -35),
-            (-25, -5, -35),
-            (-25, -10, -30),
-            (25, -10, -30),
-            (25, -5, -30),
-            (-25, -5, -30),
-        )
+        self.barrier1 = barrier.Barrier(-5, 25, -10, -5, -35, -30)
+        self.barrier2 = barrier.Barrier(-15, -10, -10, 0, -45, -40)
         
-        self.barrier_surfaces = (
-            (0, 1, 2, 3),
-            (4, 5, 6, 7),
-            (0, 1, 4, 5),
-            (2, 3, 6, 7),
-            (1, 2, 5, 6),
-            (0, 3, 4, 7),
-        )
+        globalvars.barriers.append(self.barrier1)
+        globalvars.barriers.append(self.barrier2)
         
 
     def Draw_Back_Wall(self):
@@ -74,19 +55,8 @@ class Walls:
         
         for target_vertex in self.target_surface:
             glColor3fv((0, 1, 1))
-            glVertex3fv(self.target_vertices[target_vertex])
+            glVertex3fv(globalvars.target_vertices[target_vertex])
         
-        glEnd()
-    
-    def Draw_Barrier(self):
-        
-        glBegin(GL_QUADS)
-        
-        for surface in self.barrier_surfaces:
-            for vertex in surface:
-                glColor3fv((1, 1, 1))
-                glVertex3fv(self.barrier_vertices[vertex])
-                
         glEnd()
     
     def Draw_Floor(self):
