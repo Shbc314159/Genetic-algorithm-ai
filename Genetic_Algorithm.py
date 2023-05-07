@@ -65,7 +65,6 @@ class GeneticAlgorithm:
         print(self.mutation_rate)
         
         self.randomise_target()
-        print(globalvars.target_vertices)
     
     def crossover(self, parent1, parent2):
         crossover_point = random.randint(0, self.gene_length - 1)
