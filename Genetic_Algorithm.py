@@ -1,6 +1,7 @@
 from Individual_AI import Individual
 import random
 import globalvars
+import barrier
 
 class GeneticAlgorithm:
     def __init__(self):
@@ -10,6 +11,7 @@ class GeneticAlgorithm:
         self.pop_size = 20
         self.mutation_rate = 0.2
         self.current_best_score = 0
+        self.maxbarriers = 25
     
     def create_population(self):
         for i in range(self.pop_size):
@@ -64,7 +66,8 @@ class GeneticAlgorithm:
             
         print(self.mutation_rate)
         
-        self.randomise_target()
+#        self.randomise_target()
+        self.randomise_barriers()
     
     def crossover(self, parent1, parent2):
         crossover_point = random.randint(0, self.gene_length - 1)
@@ -85,3 +88,19 @@ class GeneticAlgorithm:
             (x + 5, -9.5, z),
         )
         
+    def randomise_barriers(self):
+        globalvars.barriers = []
+        numbarriers = random.randint(0, self.maxbarriers)
+        
+        for i in range(numbarriers):
+            length = random.randint(1, 15)
+            height = random.randint(1, 15)
+            width = random.randint(1, 15)
+            xmin = random.randint(-25, 10)
+            ymin = -10
+            zmin = random.randint(-60, -15)
+            xmax = xmin + length
+            ymax = ymin + height
+            zmax = zmin + width
+            newbarrier = barrier.Barrier(xmin, xmax, ymin, ymax, zmin, zmax)
+            globalvars.barriers.append(newbarrier)
