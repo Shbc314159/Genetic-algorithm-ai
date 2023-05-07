@@ -6,12 +6,13 @@ from OpenGL.GLU import *
 
 from Walls import Walls
 from Genetic_Algorithm import GeneticAlgorithm
+from graph import Graph
     
 def main(): 
     pygame.init()
-    display = (800,500)
+    display = (1600,1000)
     pygame.display.gl_set_attribute(GL_MULTISAMPLESAMPLES, 10)
-    pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
+    pygame.display.set_mode(display, DOUBLEBUF|OPENGL|RESIZABLE)
 
     gluPerspective(45, (display[0]/display[1]), 0.1, 110.0)
     
@@ -22,8 +23,9 @@ def main():
     
     walls = Walls()
     genetic_algorithm = GeneticAlgorithm()   
+    graph = Graph()
     
-    while genetic_algorithm.current_generation < 50:
+    while genetic_algorithm.current_generation < 100000:
         print("Generation:", genetic_algorithm.current_generation)
         
         if genetic_algorithm.current_generation == 1:
@@ -41,6 +43,7 @@ def main():
             walls.Draw_Back_Wall()
             walls.Draw_Floor()
             walls.Draw_Target()
+            walls.Draw_Barrier()
             
             for individual in genetic_algorithm.population:
                 individual.update()
@@ -48,7 +51,14 @@ def main():
             
             pygame.display.flip()
         
+        update_graph(genetic_algorithm, graph)
         genetic_algorithm.current_generation += 1
+
+def update_graph(genetic_algorithm, graph):
+    x = genetic_algorithm.current_generation
+    y = genetic_algorithm.current_best_score
+    graph.update(x, y)
+    
     
 main()      
         

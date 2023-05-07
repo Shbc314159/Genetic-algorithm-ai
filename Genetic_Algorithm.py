@@ -5,31 +5,65 @@ class GeneticAlgorithm:
     def __init__(self):
         self.population = []
         self.current_generation = 1
-        self.gene_length = 500 + self.current_generation
-        self.pop_size = 10
+        self.gene_length = 40
+        self.pop_size = 20
         self.mutation_rate = 0.2
+        self.current_best_score = 0
     
     def create_population(self):
         for i in range(self.pop_size):
-            self.genome = [random.choice(["w", "a", "d"]) for j in range(self.gene_length)]    
+            self.genome = [random.choice(["w", "a", "d", " ", "u"]) for j in range(self.gene_length)]    
             ai = Individual(self.genome)
             self.population.append(ai)
     
     def calculate_fitness(self, individual):
-        fitness = individual.score / individual.moves_taken
+        fitness = individual.score * 100 / individual.moves_taken ** 2
         print(fitness)
         return fitness
             
     def selection(self):
-        selected_individuals = []
         sorted_population = sorted(self.population, key=self.calculate_fitness, reverse=True)
-        selected_individuals = [sorted_population[0], sorted_population[1]]
-        print("selected fitnesses")
-        for i in selected_individuals:
-            self.calculate_fitness(i)
+        selected_individual = sorted_population[0]
+        print("selected fitness:")
+        self.current_best_score = self.calculate_fitness(selected_individual)
             
-        return selected_individuals
+        return selected_individual
+    
+    def mutation(self, individual):
+        for i in range(self.gene_length):
+            if random.random() < self.mutation_rate:
+                individual.genes[i] = random.choice(["w", "a", "d", " ", "u"])
         
+        return individual
+                
+    def create_next_generation(self):
+        best_individual = self.selection() 
+        self.population = []
+
+        for i in range(self.pop_size - 1):
+            child = Individual(best_individual.genes[:])
+            child = self.mutation(child)
+            
+ #           if self.current_generation % 50 == 0:
+ #               child.genes.append(random.choice(["w", "a", "d", " ", "u"]))
+            
+            self.population.append(child)
+                
+        child = Individual(best_individual.genes[:])
+        child.genes.append(random.choice(["w", "a", "d", " ", "u"]))
+        self.population.append(child)
+        
+        if self.mutation_rate - self.calculate_fitness(best_individual) > 0.05:
+            self.mutation_rate -= self.calculate_fitness(best_individual)
+        else:
+            self.mutation_rate = 0.05
+                
+ #       if self.current_generation % 0 == 0:
+ #           self.gene_length += 1
+            
+        print(self.mutation_rate)
+    
+    
     def crossover(self, parent1, parent2):
         crossover_point = random.randint(0, self.gene_length - 1)
         child1_genes = parent1.genes[:crossover_point] + parent2.genes[crossover_point:]
@@ -37,22 +71,4 @@ class GeneticAlgorithm:
         child1 = Individual(child1_genes)
         child2 = Individual(child2_genes)
         return child1, child2 
-    
-    def mutation(self, individual):
-        for i in range(self.gene_length):
-            if random.random() < self.mutation_rate:
-                individual.genes[i] = random.choice(["w", "a", "d"])
-                
-    def create_next_generation(self):
-        selected_individuals = self.selection() 
-        self.population = []
-
-        for i in range(self.pop_size // 2):
-            parent1, parent2 = random.sample(selected_individuals, 2)
-            child1, child2 = self.crossover(parent1, parent2)
-            self.mutation(child1)
-            self.mutation(child2)
-            self.population.append(child1)
-            self.population.append(child2)
-    
         

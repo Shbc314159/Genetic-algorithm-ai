@@ -36,6 +36,27 @@ class Walls:
         self.target_surface = (
             (0, 1, 2, 3)
         )
+        
+        self.barrier_vertices = (
+            (-25, -10, -35),
+            (25, -10, -35),
+            (25, -5, -35),
+            (-25, -5, -35),
+            (-25, -10, -30),
+            (25, -10, -30),
+            (25, -5, -30),
+            (-25, -5, -30),
+        )
+        
+        self.barrier_surfaces = (
+            (0, 1, 2, 3),
+            (4, 5, 6, 7),
+            (0, 1, 4, 5),
+            (2, 3, 6, 7),
+            (1, 2, 5, 6),
+            (0, 3, 4, 7),
+        )
+        
 
     def Draw_Back_Wall(self):
         
@@ -55,6 +76,17 @@ class Walls:
             glColor3fv((0, 1, 1))
             glVertex3fv(self.target_vertices[target_vertex])
         
+        glEnd()
+    
+    def Draw_Barrier(self):
+        
+        glBegin(GL_QUADS)
+        
+        for surface in self.barrier_surfaces:
+            for vertex in surface:
+                glColor3fv((1, 1, 1))
+                glVertex3fv(self.barrier_vertices[vertex])
+                
         glEnd()
     
     def Draw_Floor(self):

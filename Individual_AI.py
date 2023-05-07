@@ -10,21 +10,30 @@ class Individual(Cube):
         self.score = 0
         self.fitness = 0
         self.moves_taken = 1
+        self.target_centre = (-22.5, -9.5, -57.5)
     
     def update(self):
         if self.current_move < len(self.genes):
             self.move(self.genes[int(self.current_move)])
-            self.current_move += 0.05
+            
+            if keyboard.is_pressed("w"):
+ #               self.move("w")
+ #           elif keyboard.is_pressed("a"):
+ #               self.move("a")
+ #           elif keyboard.is_pressed("d"):
+ #               self.move("d")
+ #           elif keyboard.is_pressed("u"):
+ #               self.move("u")
+                pass
+
+            self.current_move += 0.2
             self.moves_executed += 1
+            
+        self.distance_from_target = ((self.target_centre[0] - self.cube_pos[0]) ** 2 + 
+                            (self.target_centre[1] - self.cube_pos[1]) ** 2 + 
+                            (self.target_centre[2] - self.cube_pos[2]) ** 2) ** 0.5 
+        self.score += 1/self.distance_from_target ** 10
         
-        if self.collide_with_target() == True:
-            if self.score == 0:
-                self.score += 100
-                self.moves_taken = self.moves_executed
-            else:
-                self.score += 20
-                
-            print("collision")
             
         
     def collide_with_target(self):
